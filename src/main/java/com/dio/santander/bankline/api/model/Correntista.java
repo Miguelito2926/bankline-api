@@ -13,7 +13,7 @@ import javax.persistence.Table;
 public class Correntista {
 	
 	@Id
-	@GeneratedValue(strategy =  GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
 	@Column(length = 20)
