@@ -11,20 +11,7 @@ public class Conta {
 	
 	@Column(name= "conta_saldo")
 	private  Double saldo;
-	
-	/**
-	private Correntista correntista;
-	
-	public Correntista getCorrentista() {
-		return correntista;
-	}
-	
-	
-	public void setCorrentista(Correntista correntista) {
-		this.correntista = correntista;
-	}
-	*/
-	
+		
 	public Long getNumero() {
 		return numero;
 	}
